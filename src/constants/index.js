@@ -15,11 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
+  hubgroup,
   starbucks,
   tesla,
   shopify,
-  carrent,
+  tmlsstudios,
   jobit,
   tripguide,
   threejs,
@@ -156,15 +156,15 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Hub Group",
+    icon: hubgroup,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led 2-week sprints to prioritize tasks and deliver high-quality results on time and within budget.",
+      "Successfully onboarded clients by delivering comprehensive API documentation and conducting thorough testing to ensure seamless integration with company's software platform.",
+      "Developed and implemented new work automations that streamlined processes and increased efficiency, as well as enhanced existing automations to improve performance and user experience.",
+      "Collaborated on the development of an internal app used to efficiently scan and track shipments upon delivery, resulting in increased accuracy and timeliness of data entry.",
     ],
   },
 ];
@@ -198,25 +198,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TMLS Studios",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that enables users to explore a diverse range of services and make purchases or request a quote for the desired service.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "elementor",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tmlsstudios,
+    source_code_link: "https://tmlsstudios.com/",
   },
   {
     name: "Job IT",
