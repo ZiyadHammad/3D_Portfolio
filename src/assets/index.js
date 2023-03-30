@@ -26,8 +26,7 @@ import ga from "./company/ga.png";
 import intuit from "./company/intuit.png";
 
 import tmlsstudios from "./tmlsstudios.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -54,7 +53,5 @@ export {
   hubgroup,
   ga,
   intuit,
-  tmlsstudios,
-  jobit,
-  tripguide,
+  tmlsstudios
 };
