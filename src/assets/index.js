@@ -22,9 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import hubgroup from "./company/hubgroup.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ga from "./company/ga.png";
+import intuit from "./company/intuit.png";
 
 import tmlsstudios from "./tmlsstudios.png";
 import jobit from "./jobit.png";
@@ -53,9 +52,8 @@ export {
   typescript,
   threejs,
   hubgroup,
-  shopify,
-  starbucks,
-  tesla,
+  ga,
+  intuit,
   tmlsstudios,
   jobit,
   tripguide,
