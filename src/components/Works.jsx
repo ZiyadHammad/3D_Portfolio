@@ -78,11 +78,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The projects I have completed provide tangible evidence of my skills
-          and experience. They demonstrate my ability to tackle challenging
-          problems, work with a variety of technologies, and manage projects
-          efficiently. Each project is accompanied by a brief description, as
-          well as links to its code repository and live demo.
+          Projects I have completed
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

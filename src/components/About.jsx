@@ -43,18 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
       >
         Greetings, visitors to my portfolio! I am a full-stack software engineer
-        situated in Northern Virginia, and I take great pride in my meticulous
-        approach to development. My primary motivation is to continuously expand
-        my skills and knowledge to develop innovative products that improve our
-        daily lives. With a background in sales, management, and marketing, I
-        possess a customer-centric outlook that informs my web development
-        approach, ensuring a seamless and enjoyable user experience. In my free
-        time, I enjoy video gaming, bodybuilding, and cooking. If you would like
-        to connect with me, feel free to follow me on my social media platforms.
-        I take pride in being a quick learner and working closely with my
-        clients to create efficient, scalable, and user-friendly solutions that
-        solve real-world problems. I believe in collaboration and would love to
-        work together to bring your ideas to life.
+        situated in Northern Virginia.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

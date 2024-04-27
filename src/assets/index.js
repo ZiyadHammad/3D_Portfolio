@@ -22,10 +22,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import hubgroup from "./company/hubgroup.png";
-import ga from "./company/ga.png";
+import worldstrides from "./company/worldstrides.png";
 import intuit from "./company/intuit.png";
 
-import tmlsstudios from "./tmlsstudios.png";
+import rapidsum from "./rapidsum.png";
 
 
 export {
@@ -51,7 +51,7 @@ export {
   typescript,
   threejs,
   hubgroup,
-  ga,
+  worldstrides,
   intuit,
-  tmlsstudios
+  rapidsum
 };
