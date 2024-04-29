@@ -7,10 +7,6 @@ import { SectionWrapper } from "../hoc";
 import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
 
-const userID = import.meta.env.VITE_USER_ID
-const serviceID = import.meta.env.VITE_SERVICE_ID
-const templateID = import.meta.env.VITE_TEMPLATE_ID
-
 const Contact = () => {
   const formRef = useRef();
   
@@ -34,9 +30,9 @@ const Contact = () => {
     setLoading(true);
 
    const data = {
-      service_id: serviceID,
-      template_id: templateID,
-      user_id: userID,
+      service_id: 'service_s0aimi4',
+      template_id: 'template_jo8krdm',
+      user_id: '0IC1WUvC0lQIDEF2I',
       template_params: {
         'from_name': 'Portfolio Site',
         'to_name': form.name,
