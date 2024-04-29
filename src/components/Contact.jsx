@@ -29,6 +29,8 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const { name, email, message } = form
+
     setLoading(true);
 
    const data = {
@@ -43,9 +45,9 @@ const Contact = () => {
       }
    };
     
-    
    const res = await axios.post('https://api.emailjs.com/api/v1.0/email/send', data)
-   console.log(res)
+
+    setLoading(false)
     
   };
 
