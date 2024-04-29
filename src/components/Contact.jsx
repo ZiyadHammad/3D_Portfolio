@@ -1,11 +1,15 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import axios from 'axios'
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
+
+const userID = import.meta.env.VITE_USER_ID
+const serviceID = import.meta.env.VITE_SERVICE_ID
+const templateID = import.meta.env.VITE_TEMPLATE_ID
 
 const Contact = () => {
   const formRef = useRef();
@@ -23,38 +27,26 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs
-      .send(
-        "service_u175ejf",
-        "template_qew4ld9",
-        {
-          from_name: form.name,
-          to_name: "Ziyad",
-          from_email: form.email,
-          to_email: "ziyadhammad0@gmail.com",
-          message: form.message,
-        },
-        "XIp4T-GNRVzotJ9IS"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.log(error);
-          alert("Something went wrong.");
-        }
-      );
+
+   const data = {
+      service_id: serviceID,
+      template_id: templateID,
+      user_id: userID,
+      template_params: {
+        'from_name': 'Portfolio Site',
+        'to_name': form.name,
+        'from_email': form.email,
+        'message' : form.message
+      }
+   };
+    
+    
+   const res = await axios.post('https://api.emailjs.com/api/v1.0/email/send', data)
+   console.log(res)
+    
   };
 
   return (
