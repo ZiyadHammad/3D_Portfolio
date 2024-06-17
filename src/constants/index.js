@@ -119,12 +119,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - Feb 2024",
     points: [
-      "Led and managed client business calls to facilitate customer integration, ensuring smooth onboarding onto our network through testing across development and QA environments",
-      "Co-led integration project of third-party routing & scheduling application software for optimized order management",
+      "Developed widely used internal PWA utilized by operations for efficient shipment scanning and tracking, enhancing accuracy and timeliness of data entry",
       "Built Restful APIs for order management and tracking services",
-      "Collaborated on widely used internal Vue.js PWA utilized by operations team for efficient shipment scanning and tracking, enhancing accuracy and timeliness of data entry",
-      "Optimized backend DB2 operations by implementing and enhancing 20+ functions, triggers, and stored procedures, resulting in over 20% reduction in query execution time",
-      "Ensured the prompt resolution of IT support tickets across various departments, guaranteeing uninterrupted operations and productivity"
+      "Managed DB2 database which involved granting permissions, conducting data loads, and handling administrative tasks",
+      "Co-led integration project of third-party routing & scheduling software, optimizing order management processes",
+      "Developed an internal web interface featuring analytical KPI dashboards and visualizations used by internal staff",
+      "Used collaboration tools such as Git, GitHub, Teams, Jira, and Confluence"
     ],
   },
   {
