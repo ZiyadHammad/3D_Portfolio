@@ -34,7 +34,7 @@ export const navLinks = [
   {
     id: "#contact",
     title: "Contact",
-  }
+  },
 ];
 
 const services = [
@@ -119,12 +119,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - Feb 2024",
     points: [
-      "Developed widely used internal PWA utilized by operations for efficient shipment scanning and tracking, enhancing accuracy and timeliness of data entry",
-      "Built Restful APIs for order management and tracking services",
-      "Managed DB2 database which involved granting permissions, conducting data loads, and handling administrative tasks",
-      "Co-led integration project of third-party routing & scheduling software, optimizing order management processes",
-      "Developed an internal web interface featuring analytical KPI dashboards and visualizations used by internal staff",
-      "Used collaboration tools such as Git, GitHub, Teams, Jira, and Confluence"
+      "Engineered custom webhooks, triggers, and RESTful APIs using Workato to optimize data synchronization, streamline data flow, and automate workflow processes",
+      "Developed a Vue.js application to streamline internal shipment scanning processes, enhancing data entry accuracy and timeliness",
+      "Implemented custom data flows and automations, showcasing ability to analyze and optimize complex data processes",
+      "Developed and optimized complex database queries for efficient data retrieval and manipulation",
+      "Extracted and collected data from various systems using SQL and other programming languages",
+      "Employed Python and Pandas to manipulate and format large datasets for business analytics and reporting",
+      "Managed database administration tasks, including data loads, quality control, and system maintenance",
+      "Worked in testing and production environments to facilitate application infrastructure and deployment",
+      "Optimized cross-departmental IT support, streamlining ticket resolution time",
+      "Utilized Git, GitHub, Teams, Jira, and Confluence for collaborative development and project management",
     ],
   },
   {
@@ -134,10 +138,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2020 - Feb 2022",
     points: [
-      "Demonstrated expertise in identifying and addressing client needs across B2B & B2C markets by offering tailored SaaS solutions, encompassing Payroll, Accounting, & Merchant Services",
-      "Conducted proactive follow-ups with existing clients, offering personalized support for renewals, exploring upgrade options, and discussing potential enhancements to their solutions",
-      "Proficient in swiftly establishing rapport, addressing objections, and delivering compelling product demonstrations to effectively engage clients & drive sales",
-      "Consistently exceeding both monthly & weekly sales quotas by engaging with over 500 contacts monthly, while maintaining an average conversion rate of 35%",
+      "Managed end-to-end B2B sales process for Intuit SaaS products, targeting SMB clients with up to 500 employees",
+      "Executed strategic prospecting efforts targeting C-Suite, VP, IT, and CX executives using multi-channel communication",
+      "Conducted discovery calls and product demonstrations, aligning cloud-based SaaS solutions with clients' needs",
+      "Consistently exceeded sales targets, engaging with 500+ contacts monthly to grow and maintain client base",
+      "Led onboarding sessions and provided personalized support to ensure client satisfaction and retention",
+      "Implemented upselling strategies, increasing adoption of additional products and services",
+      "Collaborated with the marketing team to create solution videos and promotional materials",
+      "Utilized Salesforce CRM to track and manage prospecting efforts and client relationships",
     ],
   },
   {
@@ -147,15 +155,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "Dec 2019 - Dec 2020",
     points: [
-      "Provided comprehensive counseling and guidance to students and families regarding educational opportunities, admission procedures, credit transfer, financial aid, and university policies, resulting in an increase in enrollment",
-      "Maintained regular communication with families before, during, and after programs to ensure customer satisfaction, resulting in a notable increase in program retention and positive feedback",
-      "Proficiently managed pipeline and conducted sales operations via Microsoft Dynamics 365 over the phone, with an average deal size of $10,000",
-      "Consistently surpassed monthly sales quotas by over 100%, maintaining an average conversion rate of over 30%",
+      "Executed targeted outreach strategies, increasing qualified leads and enrollments by 25%",
+      "Provided comprehensive counseling on educational opportunities, admission procedures, and financial aid",
+      "Maintained ongoing communication with prospects throughout the sales cycle, ensuring high customer satisfaction",
+      "Utilized Microsoft Dynamics 365 for advanced pipeline management, achieving 95% forecast accuracy",
+      "Managed client relations and sales operations using Microsoft Dynamics 365, achieving an average deal size of $10,000",
     ],
-  }
-  
+  },
 ];
-
 
 const projects = [
   {
@@ -178,7 +185,7 @@ const projects = [
     ],
     image: rapidsum,
     source_code_link: "https://rapid-sum-ecru.vercel.app/",
-  }
+  },
 ];
 
 export { services, technologies, experiences, projects };
