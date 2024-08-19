@@ -114,6 +114,54 @@
   -webkit-text-fill-color: transparent;
 }
 
+.amethyst-text-gradient {
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to top, #9d50bb, #6e48aa);
+  background: linear-gradient(to top, #9d50bb, #6e48aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sunset-text-gradient {
+  background: #ff7e5f;
+  background: -webkit-linear-gradient(to top, #ff7e5f, #feb47b);
+  background: linear-gradient(to top, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ocean-breeze-text-gradient {
+  background: #4ecdc4;
+  background: -webkit-linear-gradient(to top, #4ecdc4, #556270);
+  background: linear-gradient(to top, #4ecdc4, #556270);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cherry-blossom-text-gradient {
+  background: #fbd3e9;
+  background: -webkit-linear-gradient(to top, #fbd3e9, #bb377d);
+  background: linear-gradient(to top, #fbd3e9, #bb377d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.golden-hour-text-gradient {
+  background: #f2994a;
+  background: -webkit-linear-gradient(to top, #f2994a, #f2c94c);
+  background: linear-gradient(to top, #f2994a, #f2c94c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.emerald-text-gradient {
+  background: #02aab0;
+  background: -webkit-linear-gradient(to top, #02aab0, #00cdac);
+  background: linear-gradient(to top, #02aab0, #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

@@ -20,6 +20,7 @@ import {
   worldstrides,
   rapidsum,
   threejs,
+  pumpfolio
 } from "../assets";
 
 export const navLinks = [
@@ -185,6 +186,31 @@ const projects = [
     ],
     image: rapidsum,
     source_code_link: "https://rapid-sum-ecru.vercel.app/",
+  },
+  {
+    name: "Pumpfolio",
+    description:
+      "Easy-to-use app that lets you explore a wide range of exercises, filter by muscle group or exercise type, and find similar exercises based on your choices. It’s designed to make your workout routine more effective and varied.",
+    tags: [
+      {
+        name: "React",
+        color: "amethyst-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "sunset-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "ocean-breeze-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "cherry-blossom-text-gradient",
+      }
+    ],
+    image: pumpfolio,
+    source_code_link: "https://pumpfolio.onrender.com/",
   },
 ];
 

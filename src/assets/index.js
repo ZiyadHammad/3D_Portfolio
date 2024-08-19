@@ -26,6 +26,7 @@ import worldstrides from "./company/worldstrides.png";
 import intuit from "./company/intuit.png";
 
 import rapidsum from "./rapidsum.png";
+import pumpfolio from './pumpfolio.png'
 
 
 export {
@@ -53,5 +54,6 @@ export {
   hubgroup,
   worldstrides,
   intuit,
-  rapidsum
+  rapidsum,
+  pumpfolio
 };
