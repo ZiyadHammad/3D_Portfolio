@@ -20,7 +20,9 @@ import {
   worldstrides,
   rapidsum,
   threejs,
-  pumpfolio
+  pumpfolio,
+  interviewiq,
+  startup
 } from "../assets";
 
 export const navLinks = [
@@ -31,6 +33,10 @@ export const navLinks = [
   {
     id: "#work",
     title: "Work",
+  },
+  {
+    id: "#projects",
+    title: "Projects",
   },
   {
     id: "#contact",
@@ -115,6 +121,20 @@ const technologies = [
 const experiences = [
   {
     title: "Full Stack Developer",
+    company_name: "Stealth Startup",
+    icon: startup,
+    iconBg: "#E6DEDD",
+    date: "Mar 2024 - Present",
+    points: [
+      "Engineered scalable and efficient RESTful API’s using Node.js and Express.js",
+      "Simplified and optimized database schemas for better data storage and retrieval",
+      "Developed unit and integration tests using Jest.js to enhance code quality and reliability through automated testing",
+      "Worked with frontend team to help create and develop the user interface using Vue.js and Tailwind",
+      "Maintained detailed documentation for system architecture, workflows, and processes using Confluence"
+    ],
+  },
+  {
+    title: "Full Stack Developer",
     company_name: "Hub Group",
     icon: hubgroup,
     iconBg: "#E6DEDD",
@@ -148,35 +168,21 @@ const experiences = [
       "Collaborated with the marketing team to create solution videos and promotional materials",
       "Utilized Salesforce CRM to track and manage prospecting efforts and client relationships",
     ],
-  },
-  {
-    title: "Admissions Advisor",
-    company_name: "WorldStrides",
-    icon: worldstrides,
-    iconBg: "#383E56",
-    date: "Dec 2019 - Dec 2020",
-    points: [
-      "Executed targeted outreach strategies, increasing qualified leads and enrollments by 25%",
-      "Provided comprehensive counseling on educational opportunities, admission procedures, and financial aid",
-      "Maintained ongoing communication with prospects throughout the sales cycle, ensuring high customer satisfaction",
-      "Utilized Microsoft Dynamics 365 for advanced pipeline management, achieving 95% forecast accuracy",
-      "Managed client relations and sales operations using Microsoft Dynamics 365, achieving an average deal size of $10,000",
-    ],
-  },
+  }
 ];
 
 const projects = [
   {
-    name: "RapidSum",
+    name: "InterviewIQ",
     description:
-      "Article summarizer designed to condense lengthy articles into clear and concise summaries. Copy the URL of a article page, paste,  Chat-GPT",
+      "AI-powered mock interview app that customizes questions based on your role, difficulty level, and interview type. Get real-time voice interviews powered by Vapi and Gemini.",
     tags: [
       {
-        name: "Chat GPT-4",
+        name: "Gemini",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
@@ -184,8 +190,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: rapidsum,
-    source_code_link: "https://rapid-sum-ecru.vercel.app/",
+    image: interviewiq,
+    source_code_link: "https://interview-iq-ten.vercel.app/",
   },
   {
     name: "Pumpfolio",
@@ -212,6 +218,27 @@ const projects = [
     image: pumpfolio,
     source_code_link: "https://pumpfolio.onrender.com/",
   },
+  {
+    name: "RapidSum",
+    description:
+      "Article summarizer designed to condense lengthy articles into clear and concise summaries. Copy the URL of a article page, paste, and let Chat-GPT do the rest.",
+    tags: [
+      {
+        name: "Chat GPT-4",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rapidsum,
+    source_code_link: "https://rapid-sum-ecru.vercel.app/",
+  }
 ];
 
 export { services, technologies, experiences, projects };

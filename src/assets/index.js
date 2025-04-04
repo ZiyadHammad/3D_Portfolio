@@ -26,8 +26,9 @@ import worldstrides from "./company/worldstrides.png";
 import intuit from "./company/intuit.png";
 
 import rapidsum from "./rapidsum.png";
-import pumpfolio from './pumpfolio.png'
-
+import pumpfolio from "./pumpfolio.png";
+import interviewiq from "./interviewiq.png";
+import startup from "./startup.jpeg";
 
 export {
   logo,
@@ -55,5 +56,7 @@ export {
   worldstrides,
   intuit,
   rapidsum,
-  pumpfolio
+  pumpfolio,
+  interviewiq,
+  startup
 };

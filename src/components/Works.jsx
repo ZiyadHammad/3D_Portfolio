@@ -68,7 +68,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div id="projects" className="scroll-mt-24" variants={textVariant()}>
         <p className={styles.sectionSubText}>Work I have done so far</p>
         <h2 className={styles.sectionHeadText}>My Projects.</h2>
       </motion.div>
