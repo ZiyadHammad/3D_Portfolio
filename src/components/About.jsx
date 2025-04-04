@@ -42,8 +42,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        Greetings, visitors to my portfolio! I am a full-stack software engineer
-        situated in Northern Virginia.
+        {/* Greetings, visitors! <br/> I am a full-stack developer
+        situated in Northern Virginia. */}
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
