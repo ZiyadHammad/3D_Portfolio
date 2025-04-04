@@ -140,16 +140,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - Feb 2024",
     points: [
-      "Engineered custom webhooks, triggers, and RESTful APIs using Workato to optimize data synchronization, streamline data flow, and automate workflow processes",
-      "Developed a Vue.js application to streamline internal shipment scanning processes, enhancing data entry accuracy and timeliness",
-      "Implemented custom data flows and automations, showcasing ability to analyze and optimize complex data processes",
-      "Developed and optimized complex database queries for efficient data retrieval and manipulation",
-      "Extracted and collected data from various systems using SQL and other programming languages",
-      "Employed Python and Pandas to manipulate and format large datasets for business analytics and reporting",
+      "Engineered webhooks, RESTful APIs, and automations using Workato to synchronize data and optimize workflows",
+      "Developed a Vue.js application to improve internal shipment processes, enhancing data entry accuracy and efficiency",
+      "Leveraged SQL and Python to extract, transform, and format large datasets for business analytics and reporting",
+      "Designed and built dynamic business reports and invoices using Crystal Reports software",
       "Managed database administration tasks, including data loads, quality control, and system maintenance",
       "Worked in testing and production environments to facilitate application infrastructure and deployment",
-      "Optimized cross-departmental IT support, streamlining ticket resolution time",
-      "Utilized Git, GitHub, Teams, Jira, and Confluence for collaborative development and project management",
+      "Efficiently resolved support tickets related to internal systems and client-facing services",
+      "Utilized Git, GitHub, Teams, Jira, and Confluence for collaborative development and project management"
     ],
   },
   {
@@ -159,14 +157,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2020 - Feb 2022",
     points: [
-      "Managed end-to-end B2B sales process for Intuit SaaS products, targeting SMB clients with up to 500 employees",
-      "Executed strategic prospecting efforts targeting C-Suite, VP, IT, and CX executives using multi-channel communication",
-      "Conducted discovery calls and product demonstrations, aligning cloud-based SaaS solutions with clients' needs",
-      "Consistently exceeded sales targets, engaging with 500+ contacts monthly to grow and maintain client base",
-      "Led onboarding sessions and provided personalized support to ensure client satisfaction and retention",
-      "Implemented upselling strategies, increasing adoption of additional products and services",
-      "Collaborated with the marketing team to create solution videos and promotional materials",
-      "Utilized Salesforce CRM to track and manage prospecting efforts and client relationships",
+      "Managed sales lifecycle and customer support for QuickBooks software, handling inbound inquiries from SMB",
+      "Facilitated consultative sales conversations and in-depth product demonstrations",
+      "Strategically cross-sold complementary Intuit products, including payroll, payments, and accounting software",
+      "Executed client onboarding and data migrations to ensure a seamless transition with minimal disruption",
+      "Provided technical support for QuickBooks, efficiently troubleshooting and resolving client-reported issues"
     ],
   }
 ];
