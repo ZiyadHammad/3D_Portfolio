@@ -40,7 +40,7 @@ const Navbar = () => {
           <li
             className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer'
               >
-            <a href="https://drive.google.com/file/d/1fGQiDEo3f_56se7Q7OjAkanPetFymyfC/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/15TR9C5VlEif2I6WxfKB_nHgiVleAOJ0X/view?usp=sharing" target="_blank">
               Resume
             </a>
             </li>
